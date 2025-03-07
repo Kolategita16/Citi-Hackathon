@@ -21,7 +21,7 @@ if st.button("Get Prediction"):
 
 # Load environment variables
 load_dotenv()
-api_key = os.getenv("GOOGLE_API_KEY")
+api_key = os.getenv("AIzaSyDoKVO7Smxtl7O51RvUnpgymWQcZRIMkOI")
 genai.configure(api_key=api_key)
 
 # Load the trained models
